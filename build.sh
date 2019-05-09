@@ -8,7 +8,7 @@
 ##	qemu-user-static
 ##
 ## For image creation/flashing
-##	github.com/nextthingco/chip-tools
+##	github.com/Project-chip-crumbs/chip-tools
 ##	github.com/linux-sunxi/sunxi-tools
 ##		[ `make`, `make misc`, `make install`, `sudo cp sunxi* /usr/bin/`]
 ##	mtd-utils
@@ -23,7 +23,7 @@ popd
 
 CHIP_UBOOT_BRANCH=${CHIP_UBOOT_BRANCH:-production-mlc}
 
-git clone https://github.com/nextthingco/chip-u-boot
+git clone https://github.com/Project-chip-crumbs/chip-u-boot
 pushd chip-u-boot
 
 git clean -xfd
